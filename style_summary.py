@@ -15,12 +15,16 @@ llm = ChatGroq(
 prompt = PromptTemplate(
     input_variables=["preferences"],
     template = """
-You are an AI that rewrites user preferences into a natural,
-first-person personal style description.
+You are an AI that condenses user preferences into a compact,
+first-person personal style profile optimized for understanding
+fashion preferences.
 
 Write ONE short paragraph as if the USER is describing their own style.
-Use simple, clear English.
-Sound natural and realistic.
+
+The paragraph must be:
+- Short (4–6 sentences maximum)
+- Information-dense but natural
+- Clear about style, fit, colors, and occasions
 
 Rules:
 - Always write in first person (I / my).
@@ -28,15 +32,20 @@ Rules:
 - Do NOT use bullet points.
 - Do NOT mention JSON, keys, or data.
 - Respect all preferences exactly as given.
+- Clearly state style type (e.g., classic, casual, streetwear, minimal).
+- Clearly state fit preference (e.g., slim, relaxed, oversized).
+- Clearly state color preference (e.g., neutrals, dark tones, bold colors).
+- Mention main occasions I dress for.
 - If an occasion is marked as difficult, mention it as a challenge,
-  not as something the user has already mastered.
-- Keep the tone honest, grounded, and human.
+  not as something I have already mastered.
+- Keep language simple, grounded, and factual rather than emotional.
 
 User preferences:
 {preferences}
 
 Output:
-A single first-person paragraph describing my personal style.
+A single first-person paragraph that clearly summarizes my personal style
+and dressing priorities in a concise, searchable way.
 """
 )
 
