@@ -14,40 +14,40 @@ llm = ChatGroq(
 
 prompt = PromptTemplate(
     input_variables=["preferences"],
-    template = """
-You are an AI that condenses user preferences into a compact,
-first-person personal style profile optimized for understanding
-fashion preferences.
+    template ="""You are a fashion preference interpreter.
 
-Write ONE short paragraph as if the USER is describing their own style.
+Your task is to transform structured user fashion answers into a single,
+natural, semantic style description suitable for vector embeddings.
 
-The paragraph must be:
-- Short (4–6 sentences maximum)
-- Information-dense but natural
-- Clear about style, fit, colors, and occasions
+Strict Rules:
+1. Do NOT invent, infer, assume, or guess preferences that are not explicitly stated.
+2. Do NOT introduce new occasions, events, or use-cases not present in the input.
+3. Use ONLY fashion concepts, aesthetics, color language, and occasions
+   that directly align with the user preferences provided.
+4. If the input indicates safe, classic, or neutral preferences, do NOT use
+   words such as bold, statement, vibrant, dramatic, or fashion-forward.
+5. Do NOT use probabilistic language such as "likely", "possibly", or "suggests".
+6. Do NOT mention the questionnaire, questions, or answers.
+7. Paraphrase creatively while preserving exact meaning.
+8. Keep the description between 1–3 sentences.
+9. Use neutral, descriptive language optimized for semantic similarity search.
+10. Return plain text only — no bullet points, no formatting.
+11. Do NOT describe body fit, physique, or tailoring (e.g., slim-fit, body-hugging,
+    relaxed fit) unless explicitly provided in the user preferences.
+12. Avoid vague value adjectives such as chic, fashionable, or stylish unless
+    explicitly stated in the input.
 
-Rules:
-- Always write in first person (I / my).
-- Do NOT recommend outfits.
-- Do NOT use bullet points.
-- Do NOT mention JSON, keys, or data.
-- Respect all preferences exactly as given.
-- Clearly state style type (e.g., classic, casual, streetwear, minimal).
-- Clearly state fit preference (e.g., slim, relaxed, oversized).
-- Clearly state color preference (e.g., neutrals, dark tones, bold colors).
-- Mention main occasions I dress for.
-- If an occasion is marked as difficult, mention it as a challenge,
-  not as something I have already mastered.
-- Keep language simple, grounded, and factual rather than emotional.
-
-User preferences:
+User preferences (JSON):
 {preferences}
 
-Output:
-A single first-person paragraph that clearly summarizes my personal style
-and dressing priorities in a concise, searchable way.
+Generate a concise fashion style profile that strictly reflects the
+explicit preferences without extrapolation.
 """
 )
+# Output:
+# A single compact first-person paragraph that precisely summarizes
+# my fashion preferences in a way that is highly searchable and
+# semantically aligned with styling rules.
 
 def generate_style_paragraph(preferences: dict) -> str:
     formatted_prompt = prompt.format(
