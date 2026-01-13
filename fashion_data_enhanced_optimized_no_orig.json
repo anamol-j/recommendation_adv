@@ -1,0 +1,372 @@
+[
+  {
+    "id": "metadata_fashion_ai_database",
+    "type": "metadata",
+    "text": "Source: Fashion AI Database | Created: 2026-01-12T11:50:33.327598 | Total sources: 5 | Sources: 1_withliana.txt, 2_isufashion.txt, 3_masari_color_guide.txt, 4_masari_6_styles.txt, 5_masari_mix_and_match.txt"
+  },
+  {
+    "id": "style_01",
+    "type": "fashion_style",
+    "text": "Classic Elegance Style: Refined, timeless, and polished. Characteristics: Clean lines, Luxurious fabrics, Neutral colors. Key pieces: Tailored blazers, Neutral dresses, Crisp white shirts, Structured coats. Seasons: all. Occasions: casual, formal. Keywords: classic elegance."
+  },
+  {
+    "id": "style_02",
+    "type": "fashion_style",
+    "text": "Bohemian Chic Style: Freedom, creativity, and natural expression. Characteristics: Earthy tones, Flowing silhouettes, Handcrafted textures. Key pieces: Maxi dresses and skirts, Embroidered tops, Earthy prints, Layered accessories. Seasons: all. Occasions: casual, formal. Keywords: bohemian chic."
+  },
+  {
+    "id": "style_03",
+    "type": "fashion_style",
+    "text": "Modern Minimalism Style: Less is more philosophy. Characteristics: Simple silhouettes, Muted tones, High-quality basics. Key pieces: Monochrome outfits, Straight-cut trousers, Structured coats, Solid neutral tops. Seasons: all. Occasions: casual, formal. Keywords: modern minimalism."
+  },
+  {
+    "id": "style_04",
+    "type": "fashion_style",
+    "text": "Streetwear Edge Style: Comfort with bold attitude. Characteristics: Oversized silhouettes, Statement graphics, Urban culture. Key pieces: Hoodies & sweatshirts, Chunky sneakers, Oversized tees, Cargo pants. Seasons: all. Occasions: casual, formal. Keywords: streetwear edge."
+  },
+  {
+    "id": "style_05",
+    "type": "fashion_style",
+    "text": "Avant-Garde Experimentation Style: Pushes creative boundaries and challenges traditional silhouettes. Characteristics: Asymmetric cuts, Oversized proportions, Unusual fabric combinations, Sculptural shapes. Key pieces: Asymmetric designs, Oversized pieces, Experimental fabrics. Seasons: all. Occasions: casual, formal. Keywords: avant-garde experimentation."
+  },
+  {
+    "id": "style_06",
+    "type": "fashion_style",
+    "text": "Luxurious Glamour Style: Opulence, confidence, and show-stopping detail. Characteristics: High-fashion detail, Dramatic silhouettes, Sparkling elements. Key pieces: Silk gowns, Velvet suits, Dramatic silhouettes, Sparkling accessories. Seasons: all. Occasions: casual, formal. Keywords: luxurious glamour."
+  },
+  {
+    "id": "color_01",
+    "type": "color_combination",
+    "text": "Neutral Palette: Timeless and versatile. Colors: Black, White, Gray, Beige, Navy. Use case: Professional, minimalist looks. Seasons: all."
+  },
+  {
+    "id": "color_02",
+    "type": "color_combination",
+    "text": "Soft Combinations: Gentle and harmonious. Colors: Blush pink, Light gray, Pale blue, Cream, Mint green, Lavender. Use case: Romantic, feminine looks for spring/summer. Seasons: all."
+  },
+  {
+    "id": "color_03",
+    "type": "color_combination",
+    "text": "Monochrome Look: Sophisticated and streamlined. Colors: Varying shades of single color. Use case: Creating unified, elegant looks. Seasons: all."
+  },
+  {
+    "id": "color_04",
+    "type": "color_combination",
+    "text": "Contrasting Colors: Brings energy and dynamism. Colors: Blue + Orange, Purple + Yellow. Use case: Bold fashion statements. Seasons: all."
+  },
+  {
+    "id": "color_05",
+    "type": "color_combination",
+    "text": "Spring/Summer: Pastels with Bold Pops: Delicate with vibrant twist. Colors: Mauve + Mustard, Light Blue + Coral. Use case: Warmer months, casual outings. Seasons: all."
+  },
+  {
+    "id": "color_06",
+    "type": "color_combination",
+    "text": "Fall/Winter: Deep Earth Tones: Rich and grounding. Colors: Camel + Forest Green, Burgundy + Cream. Use case: Cozy, layered winter looks. Seasons: all."
+  },
+  {
+    "id": "tipcat_01_1",
+    "type": "styling_tip",
+    "text": "Styling Tip (Balancing Outfits): Pair fitted tops with oversized bottoms"
+  },
+  {
+    "id": "tipcat_01_2",
+    "type": "styling_tip",
+    "text": "Styling Tip (Balancing Outfits): Pair baggy tops with fitted pants"
+  },
+  {
+    "id": "tipcat_01_3",
+    "type": "styling_tip",
+    "text": "Styling Tip (Balancing Outfits): Balance dark tops with lighter pants"
+  },
+  {
+    "id": "tipcat_01_4",
+    "type": "styling_tip",
+    "text": "Styling Tip (Balancing Outfits): Balance colors as well as silhouettes"
+  },
+  {
+    "id": "tipcat_02_1",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): Every woman should have a go-to necklace and pair of earrings"
+  },
+  {
+    "id": "tipcat_02_2",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): Balance statement and minimal elements"
+  },
+  {
+    "id": "tipcat_02_3",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): Layer necklaces thoughtfully for depth"
+  },
+  {
+    "id": "tipcat_02_4",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): Match accessories with intent to occasion"
+  },
+  {
+    "id": "tipcat_02_5",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): A black shoulder bag works with any outfit"
+  },
+  {
+    "id": "tipcat_02_6",
+    "type": "styling_tip",
+    "text": "Styling Tip (Accessorizing): Match shoes to your top or jacket"
+  },
+  {
+    "id": "tipcat_03_1",
+    "type": "styling_tip",
+    "text": "Styling Tip (Layering): Layering is a quick way to change simple pieces into new outfits"
+  },
+  {
+    "id": "tipcat_03_2",
+    "type": "styling_tip",
+    "text": "Styling Tip (Layering): Summer dress + tights + cardigan = winter outfit"
+  },
+  {
+    "id": "tipcat_03_3",
+    "type": "styling_tip",
+    "text": "Styling Tip (Layering): Crop top + blazer = office-appropriate look"
+  },
+  {
+    "id": "tipcat_03_4",
+    "type": "styling_tip",
+    "text": "Styling Tip (Layering): Combine different lengths and textures"
+  },
+  {
+    "id": "tipcat_04_1",
+    "type": "styling_tip",
+    "text": "Styling Tip (Color Coordination): Limit color palette to 3 colors maximum"
+  },
+  {
+    "id": "tipcat_04_2",
+    "type": "styling_tip",
+    "text": "Styling Tip (Color Coordination): Use the color wheel to identify harmonious combinations"
+  },
+  {
+    "id": "tipcat_04_3",
+    "type": "styling_tip",
+    "text": "Styling Tip (Color Coordination): Consider your skin tone when choosing colors"
+  },
+  {
+    "id": "tipcat_04_4",
+    "type": "styling_tip",
+    "text": "Styling Tip (Color Coordination): Balance bold colors with neutrals"
+  },
+  {
+    "id": "tipcat_04_5",
+    "type": "styling_tip",
+    "text": "Styling Tip (Color Coordination): Match accessories to complement the outfit"
+  },
+  {
+    "id": "tipcat_05_1",
+    "type": "styling_tip",
+    "text": "Styling Tip (Proportions): Puff sleeve crop top + straight-fit pants = balanced proportions"
+  },
+  {
+    "id": "tipcat_05_2",
+    "type": "styling_tip",
+    "text": "Styling Tip (Proportions): Oversized shirt + mini skirt = playful contrast"
+  },
+  {
+    "id": "tipcat_05_3",
+    "type": "styling_tip",
+    "text": "Styling Tip (Proportions): Fitted top + wide-leg pants = elongated silhouette"
+  },
+  {
+    "id": "tipcat_05_4",
+    "type": "styling_tip",
+    "text": "Styling Tip (Proportions): Balance structured pieces with softer silhouettes"
+  },
+  {
+    "id": "outfit_01",
+    "type": "outfit_combination",
+    "text": "Outfit: Fitted bodysuit + trousers. Style: Balanced professional. Seasons: all. Occasions: casual. Tags: balanced professional."
+  },
+  {
+    "id": "outfit_02",
+    "type": "outfit_combination",
+    "text": "Outfit: Form-fitting crop top + baggy jeans. Style: Casual balanced. Seasons: all. Occasions: casual. Tags: casual balanced."
+  },
+  {
+    "id": "outfit_03",
+    "type": "outfit_combination",
+    "text": "Outfit: T-shirt + leggings. Style: Comfortable casual. Seasons: all. Occasions: casual. Tags: comfortable casual."
+  },
+  {
+    "id": "outfit_04",
+    "type": "outfit_combination",
+    "text": "Outfit: Sweater + skinny jeans. Style: Cozy casual. Seasons: all. Occasions: casual. Tags: cozy casual."
+  },
+  {
+    "id": "outfit_05",
+    "type": "outfit_combination",
+    "text": "Outfit: Cardigan + mini skirt. Style: Playful feminine. Seasons: all. Occasions: casual. Tags: playful feminine."
+  },
+  {
+    "id": "outfit_06",
+    "type": "outfit_combination",
+    "text": "Outfit: Printed top + straight-fit pants. Style: Professional polish. Seasons: all. Occasions: casual. Tags: professional polish."
+  },
+  {
+    "id": "outfit_07",
+    "type": "outfit_combination",
+    "text": "Outfit: Crop top + midi skirt + loafers. Style: Creative office. Seasons: all. Occasions: casual. Tags: creative office."
+  },
+  {
+    "id": "outfit_08",
+    "type": "outfit_combination",
+    "text": "Outfit: Satin shirt + denim jeans + statement earrings. Style: Elevated casual. Seasons: all. Occasions: casual. Tags: elevated casual."
+  },
+  {
+    "id": "outfit_09",
+    "type": "outfit_combination",
+    "text": "Outfit: Co-ord set + belt + ankle boots. Style: Put-together ease. Seasons: all. Occasions: casual. Tags: put-together ease."
+  },
+  {
+    "id": "outfit_10",
+    "type": "outfit_combination",
+    "text": "Outfit: Bold colored top + neutral pants + heels. Style: Weekend-ready. Seasons: all. Occasions: casual. Tags: weekend-ready."
+  },
+  {
+    "id": "outfit_11",
+    "type": "outfit_combination",
+    "text": "Outfit: Denim + white T-shirt. Style: Classic pairing. Seasons: all. Occasions: casual. Tags: classic pairing."
+  },
+  {
+    "id": "outfit_12",
+    "type": "outfit_combination",
+    "text": "Outfit: Sweater + slip skirt. Style: Casual elegance. Seasons: all. Occasions: casual. Tags: casual elegance."
+  },
+  {
+    "id": "outfit_13",
+    "type": "outfit_combination",
+    "text": "Outfit: Striped top + floral skirt. Style: Pattern mixing. Seasons: all. Occasions: casual. Tags: pattern mixing."
+  },
+  {
+    "id": "outfit_14",
+    "type": "outfit_combination",
+    "text": "Outfit: Blazer + graphic tee + tailored trousers. Style: Trendy layering. Seasons: all. Occasions: casual. Tags: trendy layering."
+  },
+  {
+    "id": "outfit_15",
+    "type": "outfit_combination",
+    "text": "Outfit: Leather jacket + lace top. Style: Contrasting textures. Seasons: all. Occasions: casual. Tags: contrasting textures."
+  },
+  {
+    "id": "outfit_16",
+    "type": "outfit_combination",
+    "text": "Outfit: Monochrome outfit + pop color accessory. Style: Bold statement. Seasons: all. Occasions: casual. Tags: bold statement."
+  },
+  {
+    "id": "outfit_17",
+    "type": "outfit_combination",
+    "text": "Outfit: Joggers + tailored blazer. Style: Athleisure chic. Seasons: all. Occasions: casual. Tags: athleisure chic."
+  },
+  {
+    "id": "outfit_18",
+    "type": "outfit_combination",
+    "text": "Outfit: Little black dress + statement accessories. Style: Timeless elegance. Seasons: all. Occasions: casual. Tags: timeless elegance."
+  },
+  {
+    "id": "outfit_19",
+    "type": "outfit_combination",
+    "text": "Outfit: Chinos + button-up shirt. Style: Laid-back polish. Seasons: all. Occasions: casual. Tags: laid-back polish."
+  },
+  {
+    "id": "outfit_20",
+    "type": "outfit_combination",
+    "text": "Outfit: Maxi dress + denim jacket. Style: Bohemian flair. Seasons: all. Occasions: casual. Tags: bohemian flair."
+  },
+  {
+    "id": "ess_01",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Neutral tops. Reason: Flexible base for layering."
+  },
+  {
+    "id": "ess_02",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Classic denim. Reason: Versatile, works with many pieces."
+  },
+  {
+    "id": "ess_03",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Neutral bottoms. Reason: Foundation for multiple outfits."
+  },
+  {
+    "id": "ess_04",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Tailored blazer. Reason: Elevates casual looks."
+  },
+  {
+    "id": "ess_05",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: White button-up shirt. Reason: Timeless and versatile."
+  },
+  {
+    "id": "ess_06",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Neutral dress. Reason: Professional and elegant."
+  },
+  {
+    "id": "ess_07",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Black shoulder bag. Reason: Goes with any outfit."
+  },
+  {
+    "id": "ess_08",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Structured coat. Reason: Professional and practical."
+  },
+  {
+    "id": "ess_09",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Co-ord sets. Reason: Can be mixed and matched."
+  },
+  {
+    "id": "ess_10",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Solid-colored tops. Reason: Easy to combine."
+  },
+  {
+    "id": "ess_11",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Simple necklace. Reason: Daily accessory essential."
+  },
+  {
+    "id": "ess_12",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Pair of earrings. Reason: Completes any look."
+  },
+  {
+    "id": "ess_13",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Long cardigan. Reason: Transforms outfits seasonally."
+  },
+  {
+    "id": "ess_14",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Straight-fit pants. Reason: Flattering and versatile."
+  },
+  {
+    "id": "ess_15",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Slip skirt. Reason: Elegant and layerable."
+  },
+  {
+    "id": "ess_16",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Graphic tee. Reason: Personal style expression."
+  },
+  {
+    "id": "ess_17",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Cropped jacket. Reason: Modern layering piece."
+  },
+  {
+    "id": "ess_18",
+    "type": "wardrobe_essential",
+    "text": "Wardrobe essential: Structured handbag. Reason: Professional accessory."
+  }
+]
